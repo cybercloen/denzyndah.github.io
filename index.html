@@ -14,15 +14,13 @@
  <div class="container">
   <nav>
     <img src="images/logo.png" alt="" class="logo">
-    <ul id="sidemenu">
+    <ul>
       <li><a href="#header">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#services">Services</a></li>
       <li><a href="#portfolio">Portfolio</a></li>
       <li><a href="#contact">Contact</a></li>
-      <i class="fas fa-times" onclick="closemenu()"></i>
     </ul>
-    <i class="fas fa-bars" onclick="openmenu()"></i>
   </nav>
   <div class="header-text">
     <p><span id="role-text">Penetration Tester</span></p>
@@ -85,7 +83,7 @@
             <ul>
                 <li><span>2023 - Current</span><br>
                     <ul>
-                        <li>BTech Student at CHITECHMA University Institute</li>
+                        <li>HND Student at CHITECHMA University Institute</li>
                         <li>Security Research and Learning</li>
                     </ul>
                 </li>
@@ -171,7 +169,16 @@
     <img src="images/mini-calculator.png" alt="">
     <div class="layer">
       <h3>Mini Calculator</h3>
-      <p>This is a basic web based calculator written in HTMl and CSS </p>
+      <p>This is a basic web based calculator written in HTMl and CSS </p>  Description: This project is a basic calculator that performs fundamental arithmetic operations, including addition, subtraction, multiplication, and division.
+
+      Technologies Used: HTML, CSS.
+      
+      Features: Responsive layout, real-time calculation display, error handling.
+      <p>Description: This project is a basic calculator that performs fundamental arithmetic operations, including addition, subtraction, multiplication, and division.
+
+       <p> Technologies Used: HTML, CSS.</p>
+        
+     <p>Features: Responsive layout, real-time calculation display, error handling.</p>
       <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
     </div>
    </div>
@@ -192,7 +199,7 @@
     </div>
    </div>
     </div> -->
-    <a href="#" class="btn">See more</a>
+    <!-- <a href="#" class="btn">See more</a> -->
   </div>
  </div>
 <!-- -----------contact-------------- -->
@@ -230,7 +237,6 @@
 </div>
 <!-- -------------scripts-------------- -->
 <script>
-
   var tablinks = document.getElementsByClassName("tab-links");
   var tabcontents = document.getElementsByClassName("tab-contents");
   function opentab(tabname){
@@ -241,20 +247,8 @@
       tabcontent.classList.remove("active-tab");
     }
     event.currentTarget.classList.add("active-link");
-   document.getElementById(tabname).classList.add("active-tab");
+    document.getElementById(tabname).classList.add("active-tab");
   }
-</script>
-<script>
-  var sidemenu = document.getElementById("sidemenu")
-
-  function openmenu(){
-    sidemenu.style.right = "0";
-  }
-
-  function closemenu(){
-    sidemenu.style.right = "-200px";
-  }
- 
 </script>
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbyjJxRHjOHoJ56Ve1AsBFX2Xj7V2N9I0cBSADg1l19H6cCmo9D2XrTsKUMQQLOfgTH3/exec'
